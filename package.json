@@ -1,0 +1,58 @@
+{
+  "name": "E2E_Offer_Manager",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run tsc:w\" \"npm run server\" ",
+    "server": "node node_modules/ng2f-server/server.js",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/core-js": "~0.9.34",
+    "@types/cucumber": "^4.0.4",
+    "@types/faker": "^4.1.2",
+    "@types/jasmine": "^2.5.47",
+    "@types/node": "^6.0.113",
+    "@types/oracledb": "^1.11.34",
+    "@types/protractor-helpers": "^1.0.37",
+    "axios": "^0.18.0",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "check-updates": "0.0.1",
+    "concurrently": "2.2.0",
+    "core-js": "~2.4.1",
+    "cucumber": "^2.3.1",
+    "cucumber-html-reporter": "^4.0.4",
+    "faker": "^4.1.0",
+    "jasmine": "^2.5.3",
+    "moment": "^2.22.2",
+    "ng2f-bootstrap": "~0.0.4",
+    "ng2f-server": "^1.0.0",
+    "npm": "^6.5.0",
+    "oracledb": "^2.3.0",
+    "protractor": "^5.4.1",
+    "protractor-cucumber-framework": "^3.1.0",
+    "protractor-helper": "^3.6.15",
+    "reflect-metadata": "~0.1.8",
+    "rxjs": "^6.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "superagent": "^3.8.3",
+    "systemjs": "0.19.40",
+    "to": "^0.2.9",
+    "tostr": "^0.1.0",
+    "ts-node": "^3.1.0",
+    "typescript": "^2.9.2",
+    "update": "^0.7.4",
+    "zone.js": "^0.8.26",
+    "randomstring": "^1.1.5"
+  }
+}
